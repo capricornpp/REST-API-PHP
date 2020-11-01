@@ -1,0 +1,11 @@
+DB= persons > TABLE = persons_info
+
+CREATE TABLE persons_info(
+	id int(10) NOT NULL  AUTO_INCREMENT PRIMARY KEY,
+   	 name varchar(50) NOT NULL,
+   	 age int(10) NOT NULL
+);
+
+INSERT INTO persons_info
+(`id`, `name`, `age`) VALUES (NULL, 'Somchai Madee', '10'),(NULL, 'Josh Wick', '20')
+,(NULL, 'Mark Branner', '23'),(NULL, 'Miler Jeel', '30');
